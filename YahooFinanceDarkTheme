@@ -1,0 +1,227 @@
+/** Make sure below applies to finance.yahoo.com **/
+/** Paste this CSS into a web browser extension that allows custom CSS, like Stylebot for Chrome/Firefox (not affiliated, just what I use): https://stylebot.dev/ **/
+
+/** Hides annoying ad space. Make sure you use an ad-block like uBlock Origins as well **/
+#Lead-0-SearchAdV2-Proxy,
+#Col2-13-LinkOut-Proxy,
+#Col2-1-QuoteModule-Proxy,
+#Col2-5-LinkOut-Proxy,
+#Col2-4-LinkOut-Proxy {
+	display: none !important;
+}
+
+/** Adds margin at the top so it doesn't overlap after hiding ads **/
+/** Sometimes the margin Yahoo uses seems to change, so you may have to adjust this **/
+div.finance {
+	margin-top: 165px !important;
+}
+
+#YDC-UH {
+	background-image: unset;
+	background-color: #1b1b1d;
+}
+
+#YDC-Nav-Stack {
+	max-width: 100%;
+	padding-left: 225px;
+}
+
+/** Primary font color **/
+#YDC-Nav .nr-applet-nav-item,
+#Lead-3-Portfolios-Proxy td,
+#Lead-3-Portfolios-Proxy th,
+#Lead-3-Portfolios-Proxy .IbBox span,
+#Lead-3-Portfolios-Proxy .IbBox,
+#Lead-3-Portfolios-Proxy main div section ul a,
+#Lead-3-Portfolios-Proxy main div div div div div div span,
+#Lead-3-Portfolios-Proxy main div div button span,
+#YDC-Col1 .article-cluster-boundary li div a,
+#YDC-Col1 .article-cluster-boundary li div span,
+#YDC-Col1 .article-cluster-boundary li a h3,
+#YDC-SecondaryNav-Stack-Composite ul li a,
+#quote-summary span,
+#quote-nav span,
+#quote-header-info,
+#quoteNewsStream-0-Stream a,
+td,
+th,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+.StretchedBox span,
+button,
+figcaption span,
+#rec-by-symbol td a,
+#Lead-1-FinanceHeader-Proxy a,
+section ul li span,
+div span span,
+#chart-header,
+#quote-market-notice,
+translate,
+#header-profile-panel div,
+#screener-criteria,
+label span,
+#screener-results,
+#fin-cal-events ul li div,
+#Lead-4-CalNav-Proxy span,
+#Main div,
+#Col2-0-VideosMain-Proxy div span,
+#Col2-2-DataUtility-Proxy,
+#Col2-9-QuoteModule-Proxy,
+#Col2-2-QuoteModule-Proxy,
+#Col2-3-QuoteModule-Proxy {
+	color: rgb(209, 209, 209) !important;
+}
+
+/** Secondary font color **/
+#fin-cal-events li a,
+#Col2-8-QuoteModule-Proxy div {
+	color: #000 !important;
+}
+
+/** Primary background color **/
+body,
+#Navigation,
+#YDC-Col1,
+#atomic .render-target-active > div,
+#atomic .render-target-active > div > div,
+#YDC-SecondaryNav,
+#YDC-Nav,
+#YDC-Nav > div,
+#YDC-Nav > div > div,
+#YDC-Nav a,
+#YDC-SecondaryNav-Stack-Composite ul,
+#Lead-3-Portfolios-Proxy main,
+#Lead-3-Portfolios-Proxy main div section ul,
+#Lead-3-Portfolios-Proxy main > div > div,
+#Lead-3-Portfolios-Proxy td,
+#Lead-3-Portfolios-Proxy th,
+#Col1-0-KeyStatistics-Proxy th,
+#Col1-0-KeyStatistics-Proxy td,
+td span,
+#quote-header-info,
+#quote-nav,
+table,
+thead,
+tbody,
+td,
+tr,
+th,
+section,
+section ul,
+main div span,
+#dropdown-menu,
+footer,
+#footer-0-Footer,
+#render-target-default,
+#render-target-default > div,
+#render-target-default > div > div,
+#render-target-default > div > div,
+#Aside,
+#Col2-14-Footer,
+#header-profile-panel,
+.nr-applet-subnav,
+#SecondaryNav-0-SecondaryNav-Proxy div,
+.screener-row td div,
+#Lead-4-Footer-Proxy div,
+#Lead-5-Footer-Proxy div,
+#Lead-6-Footer-Proxy div,
+#Lead-7-Footer-Proxy div,
+#Lead-4-ScreenerCriteria-Proxy div,
+#screener-results li a,
+#Lead-5-CalScreenerCriteria-Proxy div,
+#Col2-0-VideosMain-Proxy div,
+#SecondaryNav-0-SecondaryNav-Proxy ul,
+#Col2-6-Footer-Proxy div,
+#Col2-5-Footer-Proxy div,
+#Col2-4-QuoteModule-Proxy,
+#Col1-1-Financials-Proxy div,
+#Col1-1-OptionContracts-Proxy td,
+#header-notification-panel div {
+	background-color: #1b1b1d !important;
+}
+
+/** Secondary background color **/
+#Lead-5-ScreenerResults-Proxy tr:hover > td,
+Lead-5-ScreenerResults-Proxy tr:hover > td span,
+#Col1-1-HistoricalDataTable-Proxy section > div > div,
+.comments-body div,
+.comments-body span,
+#header-notification-panel div h4,
+tr:hover,
+.straddles .call-in-the-money td,
+li button:hover,
+.qsp-watchlist-add > div > div,
+#Lead-6-CalTable-Proxy tr:hover > td,
+#Lead-4-CalNav-Proxy li:hover {
+	background-color: #4b4b4d !important;
+}
+
+/** Secondary background color + border radius. Useful for hover**/
+#Lead-3-Portfolios-Proxy li:hover,
+#quote-nav li:hover,
+#YDC-Lead-Stack-Composite #Lead-3-Portfolios-Proxy main > div,
+#YDC-Lead-Stack-Composite #Lead-3-Portfolios-Proxy main > div div,
+#Lead-1-FinanceHeader-Proxy div,
+#screener-results li,
+#screener-results li a:hover,
+#Lead-2-FinanceHeader-Proxy div,
+#Lead-3-FinanceHeader-Proxy div {
+	background-color: #4b4b4d !important;
+	border-radius: 6px;
+}
+
+/** Options (calls/puts) font color **/
+#Lead-3-Portfolios-Proxy main div div tbody tr td a,
+.straddles .call-in-the-money td a,
+td a {
+	color: rgb(209, 209, 209) !important;
+	text-decoration: underline;
+}
+
+#Lead-3-Portfolios-Proxy tr {
+	border-bottom-color: #4b4b4d;
+}
+
+/** SVG Icon color **/
+#Lead-3-Portfolios-Proxy main div div div div div div svg,
+#Lead-3-Portfolios-Proxy main div div button svg,
+svg path {
+	fill: #8fb8ff !important;
+	background-color: transparent !important;
+	border-radius: 3px;
+}
+
+#header-search-form {
+	background-color: rgb(209, 209, 209) !important;
+}
+
+#Col2-0-VideosMain-Proxy .VideoPlayer div {
+	background-color: #000 !important;
+}
+
+.VideoPlayer {
+	border: 5px solid #4b4b4d;
+}
+
+/** Transparency background when necessary **/
+button,
+button span,
+main button span,
+section li a span,
+#YDC-Lead-Stack-Composite #Lead-3-Portfolios-Proxy main li a div,
+li,
+#chart-header,
+#chart-header span,
+#Lead-3-Portfolios-Proxy main > div div span,
+#quote-header-info div span,
+.YDC-Header,
+#YDC-Lead,
+#Lead-1-FinanceHeader-Proxy h3 span,
+#YDC-Lead-Stack-Composite #Lead-3-Portfolios-Proxy main td div {
+	background-color: transparent !important;
+}
